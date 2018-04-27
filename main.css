@@ -52,7 +52,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .googlemediaquery {
-    text-align: center;
+    text-align: center !important;
 }
