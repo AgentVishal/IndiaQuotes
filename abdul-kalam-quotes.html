@@ -72,9 +72,10 @@
                  <div class="quotebg">
                     <blockquote class="blockquote">
 
-                    <p class="mb-0">Look at the sky. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work.</p>
+                    <p class="mb-0" id="contentCopy">Look at the sky. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work.</p>
                     <hr>
                     <footer class="blockquote-footer"><strong>A. P. J. Abdul Kalam</strong></footer>
+                    <button id="apjButton">Copy Text</button>
                     </blockquote>
 
                     
@@ -263,6 +264,12 @@
 
     
 
+    <!--custom javascript written by me-->
+
+
+
+    <!--end of javascript written by me-->
+
 
 
 
@@ -273,6 +280,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+     <script type="text/javascript">
+        $(document).ready(function() {
+            $("#apjButton").click(function(){
+            var stringQuote = $("#contentCopy").text();
+            alert(stringQuote);
+            });
+        });
+    </script>
 
   </body>
 </html>
