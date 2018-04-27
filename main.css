@@ -53,10 +53,7 @@
 
 
 @media screen and (max-width: 400px) {
-  .googlemediaquery {
+  .googlemediaquery, .introfield {
     text-align: center;
  }
-  .thirdcontainer, .thirdfont {
-  	text-align: center;
-  }
 }
