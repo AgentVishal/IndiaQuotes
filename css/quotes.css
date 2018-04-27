@@ -49,6 +49,7 @@
 	margin: 10px;
 }
 
-.g-plus {
-	float: right !important;
+.quotebgreactions {
+	border: 3px solid #85B4A3;
+	border-style: dotted;
 }
