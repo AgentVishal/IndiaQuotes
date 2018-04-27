@@ -1,0 +1,48 @@
+.global {
+	font-family: 'Lato', sans-serif;
+}
+
+.mainbg {
+	background-color: #EDE300;
+	
+}
+
+.firstcontainer {
+	padding: 20px;
+}
+
+.secondcontainer {
+	background-color: #00DBA6;
+	padding-bottom: 35px;
+}
+
+.thirdcontainer {
+	background-color: #85B4A3;
+	padding-bottom: 30px;
+}
+
+.forthcontainer {
+	background-color: #606060;
+}
+
+.googlead1 {
+	text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .googlead1 {
+    display: none !important; 
+  }
+}
+
+
+.fullbg {
+	background-color: #EB6C35;
+}
+
+.contentspace {
+	background-color: #fff;
+	padding: 40px;
+	margin-top: 75px;
+}
